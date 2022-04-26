@@ -1,0 +1,35 @@
+/* .letterI {
+  width: 80px;
+  height: 80px;
+} */
+
+.clsStem {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 1500;
+  animation: lines 4s infinite 1s;
+  stroke: #fff;
+}
+
+.clsDot {
+  fill: none;
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: 5px;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 1500;
+  animation: lines 4s infinite 1s;
+  stroke: #ef3d23;
+  stroke-dasharray: 500;
+}
+
+@keyframes lines {
+  100% {
+    stroke-dashoffset: 3000;
+  }
+}
